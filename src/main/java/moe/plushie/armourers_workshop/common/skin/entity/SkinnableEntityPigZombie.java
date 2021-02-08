@@ -16,7 +16,9 @@ import java.util.ArrayList;
 public class SkinnableEntityPigZombie extends SkinnableEntity {
 
     @Override
-    public Class<? extends EntityLivingBase> getEntityClass() { return EntityPigZombie.class; }
+    public Class<? extends EntityLivingBase> getEntityClass() {
+        return EntityPigZombie.class;
+    }
 
     @SideOnly(Side.CLIENT)
     @Override
